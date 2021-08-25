@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (5.2.2)
+  - AlamofireObjectMapper (6.3.0):
+    - Alamofire (~> 5.2)
+    - ObjectMapper (~> 4.2)
+  - ObjectMapper (4.2.0)
+  - Realm (5.0.3):
+    - Realm/Headers (= 5.0.3)
+  - Realm/Headers (5.0.3)
+  - RealmSwift (5.0.3):
+    - Realm (= 5.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper (from `https://github.com/RomanPodymov/AlamofireObjectMapper.git`)
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  AlamofireObjectMapper:
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
+
+CHECKOUT OPTIONS:
+  AlamofireObjectMapper:
+    :commit: fe40bd0c4944d27ebf75d6a46382b2421b113ca1
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AlamofireObjectMapper: abe058eaad24646e52bd6122f232020284cfd46a
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Realm: bfca1699b61b0b17c3a69ae0e648314eae91fbdb
+  RealmSwift: 493c9f089cd3893b3959007973c0e4f640906ba0
+
+PODFILE CHECKSUM: 9525902b4a51a702c791412c148f1f51ebd4f40d
+
+COCOAPODS: 1.10.1
